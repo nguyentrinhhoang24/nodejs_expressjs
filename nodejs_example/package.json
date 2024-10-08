@@ -1,0 +1,35 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node --inspect src/index.js",
+        "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nguyentrinhhoang24/nodejs.git"
+    },
+    "keywords": [
+        "nodejs"
+    ],
+    "author": "hoang",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nguyentrinhhoang24/nodejs/issues"
+    },
+    "homepage": "https://github.com/nguyentrinhhoang24/nodejs#readme",
+    "description": "",
+    "dependencies": {
+        "blog": "file:",
+        "express": "^4.21.0",
+        "express-handlebars": "^8.0.1",
+        "mongoose": "^8.7.0",
+        "node-sass": "^9.0.0"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^3.1.7"
+    }
+}
